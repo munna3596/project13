@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1 h2 h3 h3 h5 h6 p{
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    width: 1170px;
+    margin: auto;
+}
+/* header start */
+#header{
+    background: rgba(0, 0, 0, 0.623);
+    height: 100px;
+    position: absolute;
+    top: o;
+    left: o;
+    width: 100%;
+}
+.images{
+width: 20%;
+}
+.header-2{
+    width: 80%;
+}
+.header-1{
+    display: flex;
+}
+
+
+.images{
+    padding-top: 35px;
+}
+.header-2 ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-2 ul li a{
+    line-height: 100px;
+    margin: 0 21px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: .3s;
+
+
+}
+.header-2 ul li:last-child a{
+    margin-right: 0;
+}
+.header-2 ul li a:hover{
+    color: blue;
+}
+/* header end */
+
+
+/* bannar st */
+#bannar{
+    background-image: url(..//images/navigetion.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 240px;
+    padding-bottom: 250px;
+    
+}
+.bannar-1{
+    text-align: center;
+}
+.bannar-1 h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #fffb;
+    font-family: 'Roboto Slab', serif;
+}
+.bannar-1 h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fffb;
+    font-family: 'Roboto Slab', serif;
+    line-height: 45px;
+}
+.bannar-1 p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fffb;
+    font-family: 'Roboto Slab', serif;
+}
+/* bannar end */
+
+
+
+/* instagram st */
+#services{
+    padding-top: 83px;
+    padding-bottom: 81px;
+    text-align: center;
+}
+
+.services-1 h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(35, 30, 30);
+    
+}
+.services-1 p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: rgb(35, 30, 30);
+    padding-top: 30px;
+    
+}
+.services-header{
+    text-align: center;
+}
+.services-header h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #444444;
+    padding-top: 100px;
+    
+
+}
+
+    
+
+.photo-flex{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.photo-1{
+    border: 2px solid #999;
+    padding-top: 15px;
+    padding-bottom: 26px;
+width: 370px;
+    text-align: center;
+
+}
+.photo{
+    padding-top: 35px;
+}
+ .main-in{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* width: 100%; */
+
+}
+.photo-img{
+    width: 25%;
+    
+}
+.photo-img img{
+    width: 100%;
+    display: inline-block;
+}
+.common-title{
+    text-align: center;
+}
+.common-title h2{
+    text-transform: uppercase;
+    color: #d5d5d5;
+    position: relative;
+    display: inline-block;
+}
+#instagram{
+    padding: 50px;
+    background:#2c2c2c;
+}
+
+
+.common-title h2::before{
+    position: absolute;
+    top: 50%;
+    left: -115px;
+    width: 100px;
+    content: '';
+    height: 2px;
+    transform: translateY(-50%);
+    background:#fff;
+}
+.common-title h2::after{
+    position: absolute;
+    top: 50%;
+    right: -170px;
+    width: 100px;
+    content: '';
+    height: 2px;
+    transform: translateX(-50%);
+    background:#fff;
+}
+.photo-img{
+    width: 100% !important;
+}
+.ins-bottom{
+    text-align: center;
+    
+    padding-top: 30px;
+}
+.ins-bottom a{
+    color: #fff;
+    border: 2px solid red;
+    padding: 20px 18px;
+}
+.ins-bottom i{
+    margin-right: 10px;
+    
+}
+.ins-bottom a{
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* instragam end */
+.journal-head{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+.journal-head h2{
+position: relative;
+display: inline-block;
+
+    
+}
+.journal-head h2::before{
+    position: absolute;
+    top: 50%;
+    left: -115px;
+    width: 100px;
+    content: '';
+    height: 2px;
+    transform: translateY(-50%);
+    background:rgb(170, 9, 9);
+    
+
+}
+.journal-head h2::after{
+    position: absolute;
+    top: 50%;
+    right: -115px;
+    width: 100px;
+    content: '';
+    height: 2px;
+    transform: translateY(-50%);
+    background:rgb(170, 9, 9);
+    
+
+}
+.journal-galory{
+    display: flex;
+    justify-content: space-between;
+}
+.journal-box{
+    border: 2px solid red;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    width: 370px;
+
+    
+}
+.journal-box-2{
+    border: 2px solid #444444;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    width: 370px;
+    
+}
+.con-lf a{
+    border-bottom: 1px solid rgb(192, 19, 19);
+    
+    
+}
+.journal-box-2 h3{
+    text-align: center;
+}
+.journal-box-2 .text{
+    text-align: center;
+}
+.btm-tt-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* iiiiii */
+
+.services-box-1{
+    display: flex;
+}
+.services-lf{
+    display: flex;
+    width: 50%;
+}
+.services-btm{
+    width: 50%;
+}
+.total-icon-text{
+    display: flex;
+}
+.lf-img{
+    padding-right: 20px;
+}
+#my-services-box{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.icon{
+    padding-right: 20px;
+    font-size: 40px;
+    color: #444444;
+    
+}
+.icon-text h2{
+    padding-bottom: 30px;
+}
+.icon-text p{
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.services-btm{
+    margin-left: 100px;
+}
+.twiter{
+    display: flex;
+    
+}
+.mn-part{
+    display: flex;
+    
+}
+#last-part{
+    padding: 80px 0;
+    background: rgb(37, 34, 34);
+    color: #fff;
+}
+.get-in-touch{
+    width: 25%;
+    padding-right: 20px;
+}
+.get-in-touch h2{
+    padding-bottom: 20px;
+
+}
+.p-tag-1{
+    padding-bottom: 17px;
+}
+#end-game{
+    padding: 15px 0;
+    background: #000;
+}
+
+.ft-com{
+    color: #fff;
+}
+
+
+
+
+
